@@ -29,6 +29,12 @@ end
 
 group :test do
 	gem 'rspec'
+	
+	gem 'autotest'
+	gem 'autotest-fsevent'
+	gem 'autotest-rails-pure'
+	gem 'autotest-growl'
+	
 	gem 'capybara' 
 	gem 'spork', '~> 0.9.0.rc'
 end
