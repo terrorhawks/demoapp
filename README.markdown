@@ -1,1 +1,1 @@
-== Demo App
+# Demo App for Rails 3
