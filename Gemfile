@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
+gem 'pg'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -35,7 +36,8 @@ group :test do
 	gem 'autotest-rails-pure'
 	gem 'autotest-growl'
 	
-	gem 'capybara' 
+	gem 'webrat' 
+	# gem 'capybara' 
 	gem 'spork', '~> 0.9.0.rc'
 end
 

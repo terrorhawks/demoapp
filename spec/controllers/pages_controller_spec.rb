@@ -6,14 +6,10 @@ describe PagesController do
 
   describe "GET 'home'" do
     
-    it "should be successful" do
-      get 'home'
-      response.should be_success
-    end
-    
     it "should have the right title" do
       get 'home'
-      #response.should have_tag('title', :content => 'Demo App')
+      #webrat api change
+      #response.should have_selector('title', :content => "#{@base_title} Demo App")
       response.should be_success
     end
     
